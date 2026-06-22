@@ -1,8 +1,10 @@
 body{
 
-background:linear-gradient(135deg,#ffd6e7,#ffeef5);
+margin:0;
 
-font-family:Arial;
+font-family:Arial,sans-serif;
+
+background:linear-gradient(#ffd6e7,#fff);
 
 color:#5a1835;
 
@@ -15,11 +17,11 @@ text-align:center;
 
 width:90%;
 
-max-width:900px;
+max-width:1000px;
 
 margin:auto;
 
-padding:40px;
+padding:30px 0;
 
 }
 
@@ -27,33 +29,40 @@ padding:40px;
 
 h1{
 
-font-size:50px;
+font-size:45px;
 
 }
 
 
 
-h2{
+section{
 
-margin:25px;
+margin-bottom:40px;
 
 }
 
 
 
-.carta{
+.carta,
+.contador,
+.cupon,
+.foto{
 
 background:white;
 
-padding:30px;
+padding:25px;
 
 border-radius:25px;
 
-box-shadow:0px 10px 30px #aaa;
+box-shadow:0 10px 25px #ddd;
 
-font-size:20px;
+}
 
-line-height:1.6;
+
+
+.contador{
+
+font-size:25px;
 
 }
 
@@ -65,15 +74,13 @@ display:grid;
 
 grid-template-columns:repeat(3,1fr);
 
-gap:15px;
-
-margin-top:30px;
+gap:20px;
 
 }
 
 
 
-.galeria img{
+.foto img{
 
 width:100%;
 
@@ -87,17 +94,37 @@ border-radius:20px;
 
 
 
-.distancia{
+.foto p{
 
-background:white;
+line-height:1.5;
 
-margin-top:40px;
+}
 
-padding:30px;
 
-border-radius:25px;
 
-font-size:22px;
+button{
+
+background:#e91e63;
+
+color:white;
+
+border:none;
+
+padding:15px 25px;
+
+border-radius:30px;
+
+font-size:18px;
+
+}
+
+
+
+#premio{
+
+margin-top:20px;
+
+font-size:20px;
 
 }
 
@@ -105,9 +132,7 @@ font-size:22px;
 
 footer{
 
-margin-top:40px;
-
-font-size:20px;
+padding:30px;
 
 }
 
@@ -127,6 +152,5 @@ h1{
 font-size:35px;
 
 }
-
 
 }
