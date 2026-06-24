@@ -1,4 +1,4 @@
-let fecha = new Date("June 28, 2026 18:00:00").getTime();
+let fecha = new Date("June 25, 2026 18:00:00").getTime();
 
 
 setInterval(function(){
